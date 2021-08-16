@@ -64,6 +64,7 @@ function App() {
                 variant="body1"
                 children="Build on Internet Computer"
               />
+              <p></p>
             </Grid>
           </Grid>
         </Box>
