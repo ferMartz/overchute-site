@@ -12,7 +12,7 @@ import Dfinity from "./dfinity_logo.svg";
 
 function App() {
   return (
-    <Box bgcolor="#0d1117">
+    <Box>
       <Container>
         <Box minHeight="100vh" display="flex" flexDirection="column">
           <img
@@ -25,14 +25,14 @@ function App() {
             style={{
               marginBottom: "3rem",
               fontWeight: "700",
-              color: "#efefef",
+              color: "#454545",
             }}
           >
             Crowdfunding the release of <br /> intelectual property
           </Typography>
           <Grid container>
             <Grid item xs={10} sm={8} md={6} lg={6}>
-              <Typography variant="h6" style={{ color: "#efefef" }}>
+              <Typography variant="h6" style={{ color: "#454545" }}>
                 A decentralized smart-contract application that uses a novel
                 funding protocol to mitigate the free-rider problem and enable
                 efficient price discovery.
@@ -50,7 +50,7 @@ function App() {
               <Typography
                 variant="body1"
                 children="Build on Internet Computer"
-                style={{ color: "#efefef" }}
+                style={{ color: "#454545" }}
               />
             </Grid>
             <Grid item xs={6} sm={6} md={6} lg={4}>
