@@ -9,6 +9,7 @@ import Twitter from "@material-ui/icons/Twitter";
 import Mail from "@material-ui/icons/Mail";
 import GitHub from "@material-ui/icons/GitHub";
 import MenuBook from "@material-ui/icons/MenuBook";
+import Tooltip from "@material-ui/core/Tooltip";
 
 import FullLogo from "./logo-full.png";
 import Dfinity from "./dfinity_logo.svg";
@@ -58,41 +59,40 @@ function App() {
               />
             </Grid>
             <Grid item xs={6} sm={6} md={6} lg={4}>
-              <Link href="https://github.com/Overchute" target="_blank">
+              <Tooltip title="Docs">
+                <Link href="https://docs.overchute.com/" target="_blank">
+                  <IconButton
+                    color="primary"
+                    aria-label="book picture"
+                    component="span"
+                  >
+                    <MenuBook fontSize="large" />
+                  </IconButton>
+                </Link>
+              </Tooltip>
+              <Tooltip title="Github">
+                <Link href="https://github.com/Overchute" target="_blank">
+                  <IconButton
+                    color="primary"
+                    aria-label="github picture"
+                    component="span"
+                    style={{ marginLeft: "1rem" }}
+                  >
+                    <GitHub fontSize="large" />
+                  </IconButton>
+                </Link>
+              </Tooltip>
+
+              <Tooltip title="Contact">
                 <IconButton
                   color="primary"
-                  aria-label="upload picture"
+                  aria-label="mail picture"
                   component="span"
+                  style={{ marginLeft: "1rem" }}
                 >
-                  <GitHub fontSize="large" />
+                  <Mail fontSize="large" />
                 </IconButton>
-              </Link>
-              <Link href="https://github.com/Overchute" target="_blank">
-                <IconButton
-                  color="primary"
-                  aria-label="upload picture"
-                  component="span"
-                >
-                  <GitHub fontSize="large" />
-                </IconButton>
-              </Link>
-              <Link href="https://docs.overchute.com/" target="_blank">
-                <IconButton
-                  color="primary"
-                  aria-label="book picture"
-                  component="span"
-                >
-                  <MenuBook fontSize="large" />
-                </IconButton>
-              </Link>
-              <IconButton
-                color="primary"
-                aria-label="mail picture"
-                component="span"
-                style={{ marginLeft: "2rem" }}
-              >
-                <Mail fontSize="large" />
-              </IconButton>
+              </Tooltip>
             </Grid>
           </Grid>
         </Box>
