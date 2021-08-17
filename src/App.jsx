@@ -28,7 +28,7 @@ function App() {
               color: "#454545",
             }}
           >
-            Crowdfunding the release of <br /> intelectual property
+            Crowdfunding the release of <br /> intellectual property
           </Typography>
           <Grid container>
             <Grid item xs={10} sm={8} md={6} lg={6}>
@@ -49,7 +49,7 @@ function App() {
               />
               <Typography
                 variant="body1"
-                children="Build on Internet Computer"
+                children="Built on the Internet Computer"
                 style={{ color: "#454545" }}
               />
             </Grid>
