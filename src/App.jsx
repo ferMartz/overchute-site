@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import IconButton from "@material-ui/core/IconButton";
 import Twitter from "@material-ui/icons/Twitter";
 import Mail from "@material-ui/icons/Mail";
-import Github from "@material-ui/icons/Github";
+import Github from "@material-ui/icons/GitHub";
 
 import FullLogo from "./logo-full.png";
 import Dfinity from "./dfinity_logo.svg";
@@ -63,7 +63,7 @@ function App() {
                   aria-label="upload picture"
                   component="span"
                 >
-                  <Github fontSize="large" />
+                  <GitHub fontSize="large" />
                 </IconButton>
               </Link>
               <IconButton
