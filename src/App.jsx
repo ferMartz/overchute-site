@@ -8,6 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Twitter from "@material-ui/icons/Twitter";
 import Mail from "@material-ui/icons/Mail";
 import GitHub from "@material-ui/icons/GitHub";
+import MenuBook from "@material-ui/icons/MenuBook";
 
 import FullLogo from "./logo-full.png";
 import Dfinity from "./dfinity_logo.svg";
@@ -66,14 +67,24 @@ function App() {
                   <GitHub fontSize="large" />
                 </IconButton>
               </Link>
-              <IconButton
-                color="primary"
-                aria-label="twitter picture"
-                component="span"
-                style={{ marginLeft: "2rem" }}
-              >
-                <Twitter fontSize="large" />
-              </IconButton>
+              <Link href="https://github.com/Overchute" target="_blank">
+                <IconButton
+                  color="primary"
+                  aria-label="upload picture"
+                  component="span"
+                >
+                  <GitHub fontSize="large" />
+                </IconButton>
+              </Link>
+              <Link href="https://docs.overchute.com/" target="_blank">
+                <IconButton
+                  color="primary"
+                  aria-label="book picture"
+                  component="span"
+                >
+                  <MenuBook fontSize="large" />
+                </IconButton>
+              </Link>
               <IconButton
                 color="primary"
                 aria-label="mail picture"
