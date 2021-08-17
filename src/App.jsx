@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "@material-ui/core/Link";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
@@ -6,11 +7,13 @@ import Grid from "@material-ui/core/Grid";
 import IconButton from "@material-ui/core/IconButton";
 import Twitter from "@material-ui/icons/Twitter";
 import Mail from "@material-ui/icons/Mail";
+import Github from "@material-ui/icons/Github";
 
 import FullLogo from "./logo-full.png";
 import Dfinity from "./dfinity_logo.svg";
 
 function App() {
+  const preventDefault = (event) => event.preventDefault();
   return (
     <Box>
       <Container>
@@ -54,16 +57,26 @@ function App() {
               />
             </Grid>
             <Grid item xs={6} sm={6} md={6} lg={4}>
+              <Link href="https://github.com/Overchute" target="_blank">
+                <IconButton
+                  color="primary"
+                  aria-label="upload picture"
+                  component="span"
+                >
+                  <Github fontSize="large" />
+                </IconButton>
+              </Link>
               <IconButton
                 color="primary"
-                aria-label="upload picture"
+                aria-label="twitter picture"
                 component="span"
+                style={{ marginLeft: "2rem" }}
               >
                 <Twitter fontSize="large" />
               </IconButton>
               <IconButton
                 color="primary"
-                aria-label="upload picture"
+                aria-label="mail picture"
                 component="span"
                 style={{ marginLeft: "2rem" }}
               >
