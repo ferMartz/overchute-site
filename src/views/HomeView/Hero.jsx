@@ -13,7 +13,7 @@ function Hero() {
   return (
     <Box height="100vh">
       <Container>
-        <Box py={{ xs: 4, sm: 8, md: 12, lg: 14 }}>
+        <Box pt={{ xs: 4, sm: 8, md: 12, lg: 14 }} pb={8}>
           <LogoName primary="#1c6979" secondary="#ffd801" />
         </Box>
         <Box>
