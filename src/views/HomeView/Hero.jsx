@@ -11,7 +11,7 @@ import Dfinity from "../../assets/logo_dfinity.svg";
 
 function Hero() {
   return (
-    <Box height="100vh">
+    <Box height="90vh">
       <Container>
         <Box pt={{ xs: 4, sm: 8, md: 10 }}>
           <LogoName primary="#1c6979" secondary="#ffd801" />
