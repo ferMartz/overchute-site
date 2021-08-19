@@ -1,15 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import {
-  createTheme,
-  responsiveFontSizes,
-  ThemeProvider,
-} from "@material-ui/core/styles";
+import { responsiveFontSizes, ThemeProvider } from "@material-ui/core/styles";
 import App from "./App";
+import ThemeOver from "./assets/theme/index";
 
-let theme = createTheme();
-theme = responsiveFontSizes(theme);
+const theme = responsiveFontSizes(ThemeOver);
 
 ReactDOM.render(
   <React.StrictMode>
