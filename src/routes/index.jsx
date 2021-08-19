@@ -59,7 +59,7 @@ const routes = [
   {
     exact: true,
     path: "/404",
-    component: lazy(() => import("../views/404View")),
+    component: lazy(() => import("../views/Page404")),
   },
   AppRoutes,
   HomeRoutes,
