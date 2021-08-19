@@ -26,7 +26,7 @@ export default function TopBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{ padding: "1rem 0" }}>
+      <AppBar position="static" style={{ padding: "8px 0" }}>
         <Container>
           <Toolbar>
             <Box component="span" className={classes.logo}>
