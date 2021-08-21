@@ -25,7 +25,7 @@ function Hero() {
               color: blueGrey[700],
             }}
           >
-            Intellectual Property Protocol
+            Crowdsale Protocol
           </Typography>
           <Grid container>
             <Grid item xs={10} sm={8} md={8} lg={8}>
